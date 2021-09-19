@@ -387,9 +387,8 @@
   }
 
   header {
-    height: 45vh;
-    background: url("background.jpg");
-    margin-top: 5px;
+    height: 250px;
+    margin-top: 50px;
     background-size: cover;
     background-position: center center;
     position: relative;
