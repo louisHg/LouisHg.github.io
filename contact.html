@@ -30,7 +30,10 @@
         
         <main>
             <article>
-                <form>
+                <form action="https://formkeep.com/f/813be5bfef98"
+                    accept-charset="UTF-8"
+                    enctype="multipart/form-data"
+                    method="POST">
                     <div class="font9">
                         <h1 class="font3">Contact us</h1>
                         <div >
@@ -39,27 +42,30 @@
                             </div>
                         <div>
                             <label for="Firstname">Enter your First name: <br></label>
-                            <input type="text" name="name" id="Firstname" required>
+                            <input type="text" name="Firstname" id="Firstname" required>
                         </div>
                         <div>
                             <label for="Email">Enter your Email: <br></label>
                             <input type="email" name="email" id="Email" required>
                             </div>
-                        <div>
+                        <!-- <div>
                             <label for="Age">Enter your Age: <br></label>
                             <input type="number" id="Age" name="Age" min="3" max="99">
-                        </div>
+                        </div> -->
                         <div>
                             <label for="Phone">Enter your Phone number: <br></label>
                             <input type="tel" name="Phone" id="Phone" minlength="10" maxlength="10">
                         </div>
                         <div>
-                            <label for="Date">Date <br></label>
-                            <input type="date" value="2021-09-14" id="Date" required>
+                            <label for="Aujourdhui">Date <br></label>
+                            <input id="Aujourdhui" type="date" name="date" value="" readonly>
+                            <script>
+                            document.getElementById("Aujourdhui").valueAsDate = new Date();
+                            </script>
                         </div>
                         <div>
                             <label for="Question">Question <br></label>
-                            <textarea id="Question" name="Question"></textarea>
+                            <textarea id="Question" name="Question" rows="10" cols="50"></textarea>
                         </div>
                         <div>
                             <input type="submit" value="Submit" align="right">
