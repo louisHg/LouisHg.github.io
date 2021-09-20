@@ -743,8 +743,8 @@
     letter-spacing: .5rem;
     position: relative;
     padding-left: 80px;
-    margin-left: 200px;
     margin-bottom: .6rem;
+    text-align: center;
   }
 
   .font1 {
